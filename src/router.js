@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home'
-import Services from './views/Service'
+import Services from './views/Services'
 import About from './views/About'
 
 Vue.use(Router)

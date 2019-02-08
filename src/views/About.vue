@@ -1,6 +1,6 @@
 <template>
     <div>
-        about us
+        <h1>About Us</h1>
     </div>
 </template>
 
@@ -12,4 +12,7 @@
 
 <style scoped>
 
+    h1 {
+        padding-top: 20px;
+    }
 </style>
