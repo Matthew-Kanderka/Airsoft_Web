@@ -1,4 +1,4 @@
-# hummingbird-airsoft
+# Humming Bird Airsoft
 
 ## Project setup
 ```
