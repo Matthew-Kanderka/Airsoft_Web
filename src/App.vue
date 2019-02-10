@@ -10,11 +10,12 @@
 
         <b-navbar-nav>
           <b-nav-item :to="{name: 'Services'}">Services</b-nav-item>
+          <b-nav-item :to="{name: 'Q&A'}">Q & A</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item :to="{name: 'About'}">About Us</b-nav-item>
+          <b-nav-item :to="{name: 'Contact'}">Contact Us</b-nav-item>
         </b-navbar-nav>
 
       </b-collapse>

@@ -1,17 +1,30 @@
 <template>
-    <div>
-        <h1>Heading</h1>
+    <div class="pan">
+        <h1>{{info.name}}</h1>
 
-        <p>asdhbklibdgdklghli</p>
+        <p>{{info.description}}</p>
+
+        <b-button class="button" :to="{name: info.redirectTo}">
+            See {{info.name}}
+        </b-button>
     </div>
 </template>
 
 <script>
     export default {
-        name: "infoPanel"
+        name: "infoPanel",
+        props: ['info']
     }
 </script>
 
 <style scoped>
+    .pan {
+        background: #e9ecef;
+        border-style: solid;
+        border-width: 1px;
+    }
 
+    .button {
+        margin-bottom: 10px;
+    }
 </style>

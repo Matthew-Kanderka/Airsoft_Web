@@ -6,7 +6,7 @@
         </template>
 
         <template slot="lead">
-            airsoft
+            Mission Statement: Uncompromized quality and performance that push airsoft standards.
         </template>
 
         <img src="https://www.evike.com/images/large/cyma-29163.jpg" alt="">
@@ -14,9 +14,9 @@
 
     <b-container class="bv-example-row">
         <b-row>
-            <b-col><info-panel/></b-col>
-            <b-col><info-panel/></b-col>
-            <b-col><info-panel/></b-col>
+            <b-col v-for="i in infos">
+                <infoPanel :info=i></infoPanel>
+            </b-col>
         </b-row>
     </b-container>
 </div>
@@ -29,6 +29,27 @@
         name: "home",
         components: {
             infoPanel
+        },
+        data() {
+            return {
+                infos: [
+                    {
+                        name: 'Services',
+                        description: 'See the services we provide',
+                        redirectTo: 'Services'
+                    },
+                    {
+                        name: 'Q & A',
+                        description: 'Common questions asked',
+                        redirectTo: 'Q&A'
+                    },
+                    {
+                        name: 'Contact Us',
+                        description: 'Get in touch with us',
+                        redirectTo: 'Contact'
+                    }
+                ]
+            }
         }
     }
 </script>
