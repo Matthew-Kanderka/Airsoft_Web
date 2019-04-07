@@ -42,9 +42,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
-  img {
-    height: 15%;
-    width: 15%;
-  }
 </style>
