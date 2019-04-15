@@ -5,6 +5,22 @@
 
         <ul>
             <service-panel :service=service v-for="service in services"/>
+
+            <div>
+                <b-card bg-variant="light" class="card" style="text-align: left" title="Booking an Appointment">
+                    <p>Upon appointment confirmation please bring the following items</p>
+
+                    <div>
+                        <ul>
+                            <li v-for="condition in bookingConditions">{{condition}}</li>
+                        </ul>
+                    </div>
+
+                    <p>Upon arrival basic functional test will be performed, at which time a price and time estimate will be provided.</p>
+                    <p>The tech will contact the owner if and when replacement parts required for repairs or upgrades are advised.</p>
+
+                </b-card>
+            </div>
         </ul>
     </div>
 </template>
@@ -50,7 +66,14 @@
                         gearBoxChecks: [],
                         warrantyInfo: ''
                     }
-                ]
+                ],
+                bookingConditions: ['Rifle in concealed case', 'Magazine - one of each kind, if various kinds are used', 'Battery - all batteries', 'Sample of bbs'],
+                showForm: false
+            }
+        },
+        methods: {
+            showApptForm () {
+                this.showForm = true
             }
         }
     }
@@ -60,5 +83,9 @@
 
     .container {
         padding-top: 10px;
+    }
+
+    div {
+        margin-top: 20px;
     }
 </style>

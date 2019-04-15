@@ -4,6 +4,7 @@ import Home from './views/Home'
 import Services from './views/Services'
 import Contact from './views/Contact'
 import QandA from './views/Q&A'
+import BookAppt from './views/BookAppt'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
             path: '/Contact',
             name: 'Contact',
             component: Contact
+        },
+        {
+            path: '/BookAppt',
+            name: 'BookAppt',
+            component: BookAppt
         }
     ]
 })

@@ -1,11 +1,9 @@
 <template>
-    <div class="pan">
-        <h1>{{info.name}}</h1>
+    <div >
+        <img src="../assets/GB.png" alt="">
 
-        <p>{{info.description}}</p>
-
-        <b-button class="button" :to="{name: info.redirectTo}">
-            See {{info.name}}
+        <b-button class="btn-lg" :to="{name: info.redirectTo}">
+            {{info.name}}
         </b-button>
     </div>
 </template>
@@ -26,5 +24,11 @@
 
     .button {
         margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 </style>

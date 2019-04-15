@@ -14,15 +14,16 @@
     <b-container class="bv-example-row">
         <b-row>
             <b-col v-for="i in infos">
-                <infoPanel class="info" :info=i></infoPanel>
+                <b-button size="lg" :to="{name: i.redirectTo}">{{i.name}}</b-button>
+                <!--<infoPanel class="info" :info=i></infoPanel>-->
             </b-col>
         </b-row>
     </b-container>
 
-    <b-container class="work">
+    <div class="container">
         <h1>Custom Design</h1>
 
-        <b-row class="space">
+        <b-row class="row">
             <b-col>
                 <img :src=design1 alt="">
                 <h2>Text</h2>
@@ -31,14 +32,14 @@
                 <!--</b-card>-->
             </b-col>
             <b-col>
-                <img :src=design2 alt="">
+                <img  :src=design2 alt="">
                 <h2>Text</h2>
                 <!--<b-card class="image" :img-src="design2" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
             </b-col>
             <b-col>
-                <img :src=design3 alt="">
+                <img  :src=design3 alt="">
                 <h2>Text</h2>
                 <!--<b-card class="image" :img-src="design3" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
@@ -46,42 +47,53 @@
             </b-col>
         </b-row>
 
-        <b-row>
-            <b-col style="max-height: 400px" >
-                <img src="../assets/Des4-small.png" alt="">
-                <h2>TEst</h2>
-            </b-col>
-            <b-col style="max-height: 400px">
-                <img src="../assets/Des5-small.png" alt="">
-                <h2>test</h2>
-            </b-col>
-        </b-row>
+        <!--<b-row class="row">-->
+            <!--<b-col >-->
+                <!--<img  :src=design4 alt="">-->
+                <!--<h2>Text</h2>-->
+                <!--&lt;!&ndash;<b-card class="image" :img-src="design1" img-top>&ndash;&gt;-->
+                <!--&lt;!&ndash;<b-card-text>test</b-card-text>&ndash;&gt;-->
+                <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
+            <!--</b-col>-->
+            <!--<b-col>-->
+                <!--<img  :src=design5 alt="">-->
+                <!--<h2>Text</h2>-->
+                <!--&lt;!&ndash;<b-card class="image" :img-src="design2" img-top>&ndash;&gt;-->
+                <!--&lt;!&ndash;<b-card-text>test</b-card-text>&ndash;&gt;-->
+                <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
+            <!--</b-col>-->
+        <!--</b-row>-->
 
         <h1>Manufacturing</h1>
 
-        <b-row>
+        <b-row class="row">
             <b-col>
                 <img src="../assets/MNFG1.png" alt="">
+                <h2>text</h2>
             </b-col>
             <b-col>
                 <img src="../assets/MNFG2.png" alt="">
+                <h2>text</h2>
             </b-col>
             <b-col>
                 <img src="../assets/MNFG3.png" alt="">
+                <h2>text</h2>
             </b-col>
         </b-row>
 
         <h1>Professional Workflow</h1>
 
-        <b-row>
+        <b-row class="row">
             <b-col>
                 <img src="../assets/PROWF1.png" alt="">
+                <h2>text</h2>
             </b-col>
             <b-col>
                 <img src="../assets/PROWF2.png" alt="">
+                <h2>text</h2>
             </b-col>
         </b-row>
-    </b-container>
+    </div>
 
     <div>
         <br>
@@ -100,8 +112,10 @@
         data() {
             return {
                 design1: require('../assets/Des1-test.png'),
-                design2: require('../assets/Des2.png'),
+                design2: require('../assets/Des2-sh.png'),
                 design3: require('../assets/Des3.png'),
+                design4: require('../assets/Des4-sm.png'),
+                design5: require('../assets/Des5-sm.png'),
                 infos: [
                     {
                         name: 'Services',
@@ -126,17 +140,10 @@
 
 <style scoped>
 
-     .info{
-        margin-top: 20px;
-    }
-
-    .work {
-        margin-top: 20px;
-    }
-
     img {
         width: 100%;
         height: 100%;
+        object-fit: cover;
         border-radius: 10px;
     }
 
@@ -144,12 +151,12 @@
         margin-bottom: 10px;
     }
 
-    .space {
-        margin-bottom: 50px;
-    }
 
     h2{
         margin-top: 8px;
     }
 
+    .row {
+        margin-bottom: 50px;
+    }
 </style>

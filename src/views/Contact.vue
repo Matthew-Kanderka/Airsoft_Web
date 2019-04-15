@@ -2,6 +2,10 @@
     <div class="container">
         <h1>Contact Us</h1>
 
+        <h3 align="left">Email Us</h3>
+
+        <p align="left">Please contact us with any questions at <a href="mailto:info@hummingbirdairsoft.com">info@hummingbirdairsoft.com</a></p>
+
         <div align="left">
             <h3 >Booking an Appointment:</h3>
 
@@ -14,7 +18,6 @@
             </div>
 
             <p>Upon arrival basic functional test will be performed, at which time a price and time estimate will be provided.</p>
-            <p>The tech will contact the owner if and when replacement parts required for repairs or upgrades are advised.</p>
         </div>
     </div>
 </template>
@@ -35,4 +38,5 @@
     h1 {
         padding-top: 20px;
     }
+
 </style>

@@ -38,6 +38,8 @@
                 </li>
             </ul>
 
+            <b-button to="BookAppt">Book Now</b-button>
+
         </b-card>
     </div>
 </template>
@@ -62,6 +64,10 @@
 
     .card {
         margin-top: 20px;
+    }
+
+    a.btn.btn-secondary {
+        margin-top: 5px;
     }
 
 </style>
