@@ -2,7 +2,7 @@
   <div id="app">
     <b-navbar toggleable="md" type="dark" variant="dark">
 
-      <b-navbar-brand to="/Home">Humming Bird Airsoft Solutions</b-navbar-brand>
+      <b-navbar-brand to="/">Humming Bird Airsoft Solutions</b-navbar-brand>
 
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
