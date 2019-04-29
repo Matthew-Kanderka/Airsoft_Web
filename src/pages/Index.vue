@@ -11,11 +11,10 @@
 
     </b-jumbotron>
 
-    <b-container class="bv-example-row">
+    <b-container class="infoPanelRow">
         <b-row>
             <b-col :key="i.name" v-for="i in infos">
-                <b-button size="lg" :to="i.redirectTo">{{i.name}}</b-button>
-                <!--<infoPanel class="info" :info=i></infoPanel>-->
+                <infoPanel class="info" :info=i></infoPanel>
             </b-col>
         </b-row>
     </b-container>
@@ -68,15 +67,15 @@
 
         <b-row class="row">
             <b-col>
-                <g-image src="../assets/MNFG1.png" alt=""></g-image>
+                <g-image src="../assets/MNFG1-thumb.png" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <g-image src="../assets/MNFG2.png" alt=""></g-image>
+                <g-image src="../assets/MNFG2-thumb.png" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <g-image src="../assets/MNFG3.png" alt=""></g-image>
+                <g-image src="../assets/MNFG3-thumb.png" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
         </b-row>
@@ -85,11 +84,11 @@
 
         <b-row class="row">
             <b-col>
-                <g-image src="../assets/PROWF1.png" alt=""></g-image>
+                <g-image src="../assets/PROWF1-thumb.png" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <g-image src="../assets/PROWF2.png" alt=""></g-image>
+                <g-image src="../assets/PROWF2-thumb.png" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
         </b-row>
@@ -112,25 +111,28 @@
         },
         data() {
             return {
-                design1: require('../assets/Des1-test.png'),
-                design2: require('../assets/Des2-sh.png'),
-                design3: require('../assets/Des3.png'),
-                design4: require('../assets/Des4-sm.png'),
-                design5: require('../assets/Des5-sm.png'),
+                design1: require('../assets/Des1-thumb.png'),
+                design2: require('../assets/Des2-thumb.png'),
+                design3: require('../assets/Des3-thumb.png'),
+                design4: require('../assets/Des4-thumb.png'),
+                design5: require('../assets/Des5-thumb.png'),
                 infos: [
                     {
                         name: 'Services',
                         description: 'See the services we provide',
+                        photo: require('../assets/services-icon.png'),
                         redirectTo: '/Services'
                     },
                     {
                         name: 'Q & A',
                         description: 'Common questions asked',
+                        photo: require('../assets/question-icon.png'),
                         redirectTo: '/qand-a'
                     },
                     {
                         name: 'Contact Us',
                         description: 'Get in touch with us',
+                        photo: require('../assets/contact.png'),
                         redirectTo: '/Contact'
                     }
                 ]
@@ -160,4 +162,9 @@
     .row {
         margin-bottom: 50px;
     }
+
+    .infoPanelRow {
+        margin-top: 50px;
+    }
+
 </style>
