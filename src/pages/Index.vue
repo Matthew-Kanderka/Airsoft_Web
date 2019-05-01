@@ -24,7 +24,9 @@
 
         <b-row class="row">
             <b-col>
-                <g-image :src="design1" alt=""></g-image>
+                <picture>
+                    <g-image :src="design1" alt=""></g-image>
+                </picture>
                 <h2>Text</h2>
                 <!--<b-card class="image" :img-src="design1" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
@@ -67,15 +69,15 @@
 
         <b-row class="row">
             <b-col>
-                <g-image src="../assets/MNFG1-thumb.png" alt=""></g-image>
+                <g-image src="../assets/MNFG1-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <g-image src="../assets/MNFG2-thumb.png" alt=""></g-image>
+                <g-image src="../assets/MNFG2-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <g-image src="../assets/MNFG3-thumb.png" alt=""></g-image>
+                <g-image src="../assets/MNFG3-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
         </b-row>
@@ -84,11 +86,11 @@
 
         <b-row class="row">
             <b-col>
-                <g-image src="../assets/PROWF1-thumb.png" alt=""></g-image>
+                <g-image src="../assets/PROWF1-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <g-image src="../assets/PROWF2-thumb.png" alt=""></g-image>
+                <g-image src="../assets/PROWF2-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
         </b-row>
@@ -111,11 +113,11 @@
         },
         data() {
             return {
-                design1: require('../assets/Des1-thumb.png'),
-                design2: require('../assets/Des2-thumb.png'),
-                design3: require('../assets/Des3-thumb.png'),
-                design4: require('../assets/Des4-thumb.png'),
-                design5: require('../assets/Des5-thumb.png'),
+                design1: require('../assets/Des1-thumb.webp'),
+                design2: require('../assets/Des2-thumb.webp'),
+                design3: require('../assets/Des3-thumb.webp'),
+                design4: require('../assets/Des4-thumb.webp'),
+                design5: require('../assets/Des5-thumb.webp'),
                 infos: [
                     {
                         name: 'Services',

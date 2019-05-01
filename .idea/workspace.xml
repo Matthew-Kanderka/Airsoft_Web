@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24893163-039b-4bf5-90c7-2abda4e6dcaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/Des1-test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des2-sh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des4-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des4-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des4-smaller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des5-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des5-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Des5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MNFG1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MNFG2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MNFG3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MNFG4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MNFG5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MNFG6.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/PROWF1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/PROWF2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/infoPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/infoPanel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Index.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+            <state relative-caret-position="163">
+              <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -56,6 +46,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -79,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/.temp/routes.js" />
         <option value="$PROJECT_DIR$/src/layouts/Default.vue" />
         <option value="$PROJECT_DIR$/src/components/infoPanel.vue" />
+        <option value="$PROJECT_DIR$/webp.js" />
         <option value="$PROJECT_DIR$/src/pages/Index.vue" />
       </list>
     </option>
@@ -106,6 +104,12 @@
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -174,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556078656166</updated>
-      <workItem from="1556078657470" duration="13112000" />
+      <workItem from="1556078657470" duration="15089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13112000" />
+    <option name="totallyTimeSpent" value="15089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -352,6 +356,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/infoPanel.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -361,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="166" column="22" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+        <state relative-caret-position="163">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
         </state>
       </provider>
     </entry>
