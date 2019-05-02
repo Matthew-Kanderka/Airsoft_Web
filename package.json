@@ -12,6 +12,7 @@
     "gridsome": "^0.5.0",
     "imagemin": "^6.1.0",
     "imagemin-webp": "^5.0.0",
+    "pwa": "^1.9.7",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10"
   },
