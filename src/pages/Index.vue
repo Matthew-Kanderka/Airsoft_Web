@@ -1,4 +1,5 @@
 <template>
+    <Layout>
 <div>
     <b-jumbotron class="text-left">
         <template slot="header">
@@ -8,14 +9,12 @@
         <template slot="lead">Uncompromized quality and performance that push airsoft standards.
         </template>
 
-        <!--<img src="https://www.evike.com/images/large/cyma-29163.jpg" alt="">-->
     </b-jumbotron>
 
-    <b-container class="bv-example-row">
+    <b-container class="infoPanelRow">
         <b-row>
-            <b-col :key="i" v-for="i in infos">
-                <b-button size="lg" :to="{name: i.redirectTo}">{{i.name}}</b-button>
-                <!--<infoPanel class="info" :info=i></infoPanel>-->
+            <b-col :key="i.name" v-for="i in infos">
+                <infoPanel class="info" :info=i></infoPanel>
             </b-col>
         </b-row>
     </b-container>
@@ -25,21 +24,23 @@
 
         <b-row class="row">
             <b-col>
-                <img :src=design1 alt="">
+                <picture>
+                    <g-image :src="design1" alt=""></g-image>
+                </picture>
                 <h2>Text</h2>
                 <!--<b-card class="image" :img-src="design1" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
             </b-col>
             <b-col>
-                <img  :src=design2 alt="">
+                <g-image :src="design2" alt=""></g-image>
                 <h2>Text</h2>
                 <!--<b-card class="image" :img-src="design2" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
             </b-col>
             <b-col>
-                <img  :src=design3 alt="">
+                <g-image :src="design3" alt=""></g-image>
                 <h2>Text</h2>
                 <!--<b-card class="image" :img-src="design3" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
@@ -68,15 +69,15 @@
 
         <b-row class="row">
             <b-col>
-                <img src="../assets/MNFG1.png" alt="">
+                <g-image src="../assets/MNFG1-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <img src="../assets/MNFG2.png" alt="">
+                <g-image src="../assets/MNFG2-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <img src="../assets/MNFG3.png" alt="">
+                <g-image src="../assets/MNFG3-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
         </b-row>
@@ -85,11 +86,11 @@
 
         <b-row class="row">
             <b-col>
-                <img src="../assets/PROWF1.png" alt="">
+                <g-image src="../assets/PROWF1-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
             <b-col>
-                <img src="../assets/PROWF2.png" alt="">
+                <g-image src="../assets/PROWF2-thumb.webp" alt=""></g-image>
                 <h2>text</h2>
             </b-col>
         </b-row>
@@ -99,6 +100,7 @@
         <br>
     </div>
 </div>
+    </Layout>
 </template>
 
 <script>
@@ -111,26 +113,29 @@
         },
         data() {
             return {
-                design1: require('../assets/Des1-test.png'),
-                design2: require('../assets/Des2-sh.png'),
-                design3: require('../assets/Des3.png'),
-                design4: require('../assets/Des4-sm.png'),
-                design5: require('../assets/Des5-sm.png'),
+                design1: require('../assets/Des1-thumb.webp'),
+                design2: require('../assets/Des2-thumb.webp'),
+                design3: require('../assets/Des3-thumb.webp'),
+                design4: require('../assets/Des4-thumb.webp'),
+                design5: require('../assets/Des5-thumb.webp'),
                 infos: [
                     {
                         name: 'Services',
                         description: 'See the services we provide',
-                        redirectTo: 'Services'
+                        photo: require('../assets/services-icon.png'),
+                        redirectTo: '/Services'
                     },
                     {
                         name: 'Q & A',
                         description: 'Common questions asked',
-                        redirectTo: 'Q&A'
+                        photo: require('../assets/question-icon.png'),
+                        redirectTo: '/qand-a'
                     },
                     {
                         name: 'Contact Us',
                         description: 'Get in touch with us',
-                        redirectTo: 'Contact'
+                        photo: require('../assets/contact.png'),
+                        redirectTo: '/Contact'
                     }
                 ]
             }
@@ -140,7 +145,7 @@
 
 <style scoped>
 
-    img {
+    img.g-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -159,4 +164,9 @@
     .row {
         margin-bottom: 50px;
     }
+
+    .infoPanelRow {
+        margin-top: 50px;
+    }
+
 </style>

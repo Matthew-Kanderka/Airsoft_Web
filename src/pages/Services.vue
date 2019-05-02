@@ -1,10 +1,11 @@
 <template>
+    <Layout>
     <div class="container">
 
         <h1>Services</h1>
 
         <ul>
-            <service-panel :key="service" :service=service v-for="service in services"/>
+            <service-panel :key="service.name" :service=service v-for="service in services"/>
 
             <div>
                 <b-card bg-variant="light" class="card" style="text-align: left" title="Booking an Appointment">
@@ -23,6 +24,7 @@
             </div>
         </ul>
     </div>
+    </Layout>
 </template>
 
 <script>
@@ -81,11 +83,5 @@
 
 <style scoped>
 
-    .container {
-        padding-top: 10px;
-    }
 
-    div {
-        margin-top: 20px;
-    }
 </style>

@@ -9,11 +9,11 @@
             <h6 v-if="service.name.includes('Service')"><strong>Tasks Performed:</strong></h6>
 
             <ul>
-                <li v-for="i in service.tasks">
+                <li :key="i" v-for="i in service.tasks">
                     {{i}}
 
                     <ul v-if= "i === 'Gear box'">
-                        <li v-for="gtask in service.gearBoxChecks">{{gtask}}</li>
+                        <li :key="gtask" v-for="gtask in service.gearBoxChecks">{{gtask}}</li>
                     </ul>
                 </li>
             </ul>
@@ -25,7 +25,7 @@
             </div>
 
             <ul>
-                <li v-for="(x, index) in service.type">
+                <li :key="x" v-for="(x, index) in service.type">
                     {{x}}
 
                     <ul>
@@ -33,12 +33,12 @@
                     </ul>
 
                     <ul  v-if="x.includes('Full')">
-                        <li v-for="t in service.rhopTasks">{{t}}</li>
+                        <li :key="t" v-for="t in service.rhopTasks">{{t}}</li>
                     </ul>
                 </li>
             </ul>
 
-            <b-button to="BookAppt">Book Now</b-button>
+            <b-button to="/book-appt">Book Now</b-button>
 
         </b-card>
     </div>

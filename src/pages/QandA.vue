@@ -1,17 +1,19 @@
 <template>
+    <Layout>
     <div class="container">
         <h1>Q & A</h1>
 
-        <div :key="q" v-for="q in questionAnswerPairs" class="questionAnswerPair">
+        <div :key="q.question" v-for="q in questionAnswerPairs" class="questionAnswerPair">
             <h2 align="left">{{q.question}}</h2>
             <p align="left">{{q.answer}}</p>
         </div>
     </div>
+    </Layout>
 </template>
 
 <script>
     export default {
-        name: "Q&A",
+        name: "Q-and-A",
         data() {
             return {
                 questionAnswerPairs: [

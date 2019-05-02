@@ -1,8 +1,8 @@
 <template>
     <div >
-        <img src="../assets/GB.png" alt="">
+        <g-image :src=info.photo alt=""></g-image>
 
-        <b-button class="btn-lg" :to="{name: info.redirectTo}">
+        <b-button style="" class="btn-lg" :to="info.redirectTo">
             {{info.name}}
         </b-button>
     </div>
@@ -16,19 +16,15 @@
 </script>
 
 <style scoped>
-    .pan {
-        background: #e9ecef;
-        border-style: solid;
-        border-width: 1px;
-    }
-
-    .button {
-        margin-bottom: 10px;
-    }
 
     img {
-        width: 100%;
+        width: 40%;
         height: 100%;
-        object-fit: cover;
+    }
+
+    a.btn.btn-lg.btn-secondary {
+        display: block;
+        width: 50%;
+        margin: 10px auto;
     }
 </style>

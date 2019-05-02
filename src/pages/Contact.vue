@@ -1,4 +1,5 @@
 <template>
+    <Layout>
     <div class="container">
         <h1>Contact Us</h1>
 
@@ -20,6 +21,7 @@
             <p>Upon arrival basic functional test will be performed, at which time a price and time estimate will be provided.</p>
         </div>
     </div>
+    </Layout>
 </template>
 
 <script>
