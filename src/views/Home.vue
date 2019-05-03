@@ -21,26 +21,32 @@
     </b-container>
 
     <div class="container">
-        <h1>Custom Design</h1>
+        <h1>Extensive Qualifications & Experience</h1>
 
         <b-row class="row">
             <b-col>
                 <img :src=design1 alt="">
-                <h2>Text</h2>
+                <h2>Mechanical Enigineering TEchnologiest</h2>
+                <h2>Computer Science Software Developer</h2>
+                <h2>3-D Design</h2>
                 <!--<b-card class="image" :img-src="design1" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
             </b-col>
             <b-col>
                 <img  :src=design2 alt="">
-                <h2>Text</h2>
+                <h2>Database creation & management</h2>
+                <h2>Eletrical soldering & troublshooting</h2>
+                <h2>Machining</h2>
                 <!--<b-card class="image" :img-src="design2" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
             </b-col>
             <b-col>
                 <img  :src=design3 alt="">
-                <h2>Text</h2>
+                <h2>Root Cause Analysis</h2>
+                <h2>Data Analysis</h2>
+                <h2>Work place compliance</h2>
                 <!--<b-card class="image" :img-src="design3" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
@@ -64,20 +70,36 @@
             <!--</b-col>-->
         <!--</b-row>-->
 
-        <h1>Manufacturing</h1>
+        <h1>Precision</h1>
 
         <b-row class="row">
             <b-col>
                 <img src="../assets/MNFG1.png" alt="">
-                <h2>text</h2>
+                <h2>Industry Leading Equipment:</h2>
+                <ul>
+                    <li>Fluke</li>
+                    <li>AceTech</li>
+                    <li>Siglent</li>
+                    <li>FlashForge</li>
+                </ul>
             </b-col>
             <b-col>
                 <img src="../assets/MNFG2.png" alt="">
-                <h2>text</h2>
+                <h2>Quality Material Selection:</h2>
+                <ul>
+                    <li>C360 brass</li>
+                    <li>ABS Plastic</li>
+                    <li>Dow Corning</li>
+                </ul>
             </b-col>
             <b-col>
                 <img src="../assets/MNFG3.png" alt="">
-                <h2>text</h2>
+                <h2>Cutting Edge Verifications:</h2>
+                <ul>
+                    <li>Current profiles</li>
+                    <li>Shot Authentication</li>
+                    <li>Velocity Consistency</li>
+                </ul>
             </b-col>
         </b-row>
 
@@ -86,11 +108,17 @@
         <b-row class="row">
             <b-col>
                 <img src="../assets/PROWF1.png" alt="">
-                <h2>text</h2>
+                <ul>
+                    <li>Personalized service based on unique needs</li>
+                    <li>Reliable and consistent communication with customers</li>
+                </ul>
             </b-col>
             <b-col>
                 <img src="../assets/PROWF2.png" alt="">
-                <h2>text</h2>
+                <ul>
+                    <li>Data driven decisions</li>
+                    <li>Excellent customer service</li>
+                </ul>
             </b-col>
         </b-row>
     </div>
