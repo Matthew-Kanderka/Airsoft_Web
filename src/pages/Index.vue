@@ -6,7 +6,7 @@
             Airsoft Services
         </template>
 
-        <template slot="lead">Uncompromized quality and performance that push airsoft standards.
+        <template slot="lead">Uncompromized quality and performance that exceeds airsoft standards.
         </template>
 
     </b-jumbotron>
@@ -20,28 +20,40 @@
     </b-container>
 
     <div class="container">
-        <h1>Custom Design</h1>
+        <h1>Extensive Qualifications & Experience</h1>
 
         <b-row class="row">
             <b-col>
                 <picture>
                     <g-image :src="design1" alt=""></g-image>
                 </picture>
-                <h2>Text</h2>
+                <ul>
+                    <li>Mechanical Engineering Technologist</li>
+                    <li>Computer Science Software Developer</li>
+                    <li>3D Design</li>
+                </ul>
                 <!--<b-card class="image" :img-src="design1" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
             </b-col>
             <b-col>
                 <g-image :src="design2" alt=""></g-image>
-                <h2>Text</h2>
+                <ul>
+                    <li>Database creation management</li>
+                    <li>Electrical soldering & troubleshooting</li>
+                    <li>Machining</li>
+                </ul>
                 <!--<b-card class="image" :img-src="design2" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
             </b-col>
             <b-col>
                 <g-image :src="design3" alt=""></g-image>
-                <h2>Text</h2>
+                <ul>
+                    <li>Root-Cause Analysis</li>
+                    <li>Data Analysis</li>
+                    <li>Workplace Compliance</li>
+                </ul>
                 <!--<b-card class="image" :img-src="design3" img-top>-->
                     <!--<b-card-text>test</b-card-text>-->
                 <!--</b-card>-->
@@ -65,12 +77,12 @@
             <!--</b-col>-->
         <!--</b-row>-->
 
-        <h1>Manufacturing</h1>
+        <h1>Precision</h1>
 
         <b-row class="row">
             <b-col>
                 <g-image src="../assets/MNFG1-thumb.webp" alt=""></g-image>
-                <h2>text</h2>
+                <h3>Industry Leading Equipment</h3>
             </b-col>
             <b-col>
                 <g-image src="../assets/MNFG2-thumb.webp" alt=""></g-image>
