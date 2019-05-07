@@ -19,7 +19,7 @@
             </ul>
 
             <div class="warranty" v-if="service.warrantyInfo !== ''">
-                <a v-b-popover.hover=service.warrantyInfo title="Warrenty Info">
+                <a href="" v-b-popover.hover=service.warrantyInfo title="Warrenty Info">
                     60 Day Warranty
                 </a>
             </div>

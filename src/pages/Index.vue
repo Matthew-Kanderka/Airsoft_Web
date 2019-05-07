@@ -19,46 +19,46 @@
         </b-row>
     </b-container>
 
-    <div class="container">
-        <h1>Extensive Qualifications & Experience</h1>
+    <b-container>
+        <div class="pictureInfoBlock">
+            <h1>Extensive Qualifications & Experience</h1>
 
-        <b-row class="row">
-            <b-col>
-                <picture>
-                    <g-image :src="design1" alt=""></g-image>
-                </picture>
-                <ul>
-                    <li>Mechanical Engineering Technologist</li>
-                    <li>Computer Science Software Developer</li>
-                    <li>3D Design</li>
-                </ul>
-                <!--<b-card class="image" :img-src="design1" img-top>-->
-                    <!--<b-card-text>test</b-card-text>-->
-                <!--</b-card>-->
-            </b-col>
-            <b-col>
-                <g-image :src="design2" alt=""></g-image>
-                <ul>
-                    <li>Database creation management</li>
-                    <li>Electrical soldering & troubleshooting</li>
-                    <li>Machining</li>
-                </ul>
-                <!--<b-card class="image" :img-src="design2" img-top>-->
-                    <!--<b-card-text>test</b-card-text>-->
-                <!--</b-card>-->
-            </b-col>
-            <b-col>
-                <g-image :src="design3" alt=""></g-image>
-                <ul>
-                    <li>Root-Cause Analysis</li>
-                    <li>Data Analysis</li>
-                    <li>Workplace Compliance</li>
-                </ul>
-                <!--<b-card class="image" :img-src="design3" img-top>-->
-                    <!--<b-card-text>test</b-card-text>-->
-                <!--</b-card>-->
-            </b-col>
-        </b-row>
+            <b-row>
+                <b-col>
+                        <b-img rounded fluid-grow :src="design1" alt=""></b-img>
+                        <ul>
+                            <li>Mechanical Engineering Technologist</li>
+                            <li>Computer Science Software Developer</li>
+                            <li>3D Design</li>
+                        </ul>
+                    <!--<b-card class="image" :img-src="design1" img-top>-->
+                        <!--<b-card-text>test</b-card-text>-->
+                    <!--</b-card>-->
+                </b-col>
+                <b-col>
+                        <b-img rounded fluid-grow :src="design2" alt=""></b-img>
+                        <ul>
+                            <li>Database creation management</li>
+                            <li>Electrical soldering & troubleshooting</li>
+                            <li>Machining</li>
+                        </ul>
+                    <!--<b-card class="image" :img-src="design2" img-top>-->
+                        <!--<b-card-text>test</b-card-text>-->
+                    <!--</b-card>-->
+                </b-col>
+                <b-col>
+                        <b-img rounded fluid-grow :src="design3" alt=""></b-img>
+                        <ul>
+                            <li>Root-Cause Analysis</li>
+                            <li>Data Analysis</li>
+                            <li>Workplace Compliance</li>
+                        </ul>
+                    <!--<b-card class="image" :img-src="design3" img-top>-->
+                        <!--<b-card-text>test</b-card-text>-->
+                    <!--</b-card>-->
+                </b-col>
+            </b-row>
+        </div>
 
         <!--<b-row class="row">-->
             <!--<b-col >-->
@@ -77,36 +77,62 @@
             <!--</b-col>-->
         <!--</b-row>-->
 
-        <h1>Precision</h1>
+        <div class="pictureInfoBlock">
+            <h1>Precision</h1>
 
-        <b-row class="row">
-            <b-col>
-                <g-image src="../assets/MNFG1-thumb.webp" alt=""></g-image>
-                <h3>Industry Leading Equipment</h3>
-            </b-col>
-            <b-col>
-                <g-image src="../assets/MNFG2-thumb.webp" alt=""></g-image>
-                <h2>text</h2>
-            </b-col>
-            <b-col>
-                <g-image src="../assets/MNFG3-thumb.webp" alt=""></g-image>
-                <h2>text</h2>
-            </b-col>
-        </b-row>
+            <b-row>
+                <b-col>
+                        <b-img rounded fluid-grow :src="precision1" alt=""></b-img>
+                        <h3>Industry Leading Equipment</h3>
+                        <ul>
+                            <li>Fluke</li>
+                            <li>AceTech</li>
+                            <li>Siglent</li>
+                            <li>FlashForge</li>
+                        </ul>
+                </b-col>
+                <b-col>
+                        <b-img rounded fluid-grow :src="precision2" alt=""></b-img>
+                        <h3>Quality Material Selection</h3>
+                        <ul>
+                            <li>C360 Brass</li>
+                            <li>ABS Plastic</li>
+                            <li>Dow Corning</li>
+                        </ul>
+                </b-col>
+                <b-col>
+                        <b-img rounded fluid-grow :src="precision3" alt=""></b-img>
+                        <h3>Cutting Edge Verifications</h3>
+                        <ul>
+                            <li>Current Profiles</li>
+                            <li>Shot Authentication</li>
+                            <li>Velocity Consistency</li>
+                        </ul>
+                </b-col>
+            </b-row>
+        </div>
 
-        <h1>Professional Workflow</h1>
+        <div class="pictureInfoBlock">
+            <h1>Professional Workflow</h1>
 
-        <b-row class="row">
-            <b-col>
-                <g-image src="../assets/PROWF1-thumb.webp" alt=""></g-image>
-                <h2>text</h2>
-            </b-col>
-            <b-col>
-                <g-image src="../assets/PROWF2-thumb.webp" alt=""></g-image>
-                <h2>text</h2>
-            </b-col>
-        </b-row>
-    </div>
+            <b-row>
+                <b-col>
+                        <b-img rounded fluid-grow :src="workflow1" alt=""></b-img>
+                        <ul>
+                            <li>Personalized service based on unique needs</li>
+                            <li>Reliable and consistant communication with customers</li>
+                        </ul>
+                </b-col>
+                <b-col>
+                        <b-img rounded fluid-grow :src="workflow2" alt=""></b-img>
+                        <ul>
+                            <li>Data driven decisions</li>
+                            <li>Excellent customer service</li>
+                        </ul>
+                </b-col>
+            </b-row>
+        </div>
+    </b-container>
 
     <div>
         <br>
@@ -130,6 +156,11 @@
                 design3: require('../assets/Des3-thumb.webp'),
                 design4: require('../assets/Des4-thumb.webp'),
                 design5: require('../assets/Des5-thumb.webp'),
+                precision1: require('../assets/MNFG1-thumb.webp'),
+                precision2 : require('../assets/MNFG2-thumb.webp'),
+                precision3 : require('../assets/MNFG3-thumb.webp'),
+                workflow1: require('../assets/PROWF1-thumb.webp'),
+                workflow2: require('../assets/PROWF2-thumb.webp'),
                 infos: [
                     {
                         name: 'Services',
@@ -157,13 +188,6 @@
 
 <style scoped>
 
-    img.g-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-
     div {
         margin-bottom: 10px;
     }
@@ -173,12 +197,11 @@
         margin-top: 8px;
     }
 
-    .row {
-        margin-bottom: 50px;
-    }
-
     .infoPanelRow {
         margin-top: 50px;
     }
 
+    ul {
+        list-style-type: none;
+    }
 </style>

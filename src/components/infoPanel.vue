@@ -2,7 +2,7 @@
     <div >
         <g-image :src=info.photo alt=""></g-image>
 
-        <b-button style="" class="btn-lg" :to="info.redirectTo">
+        <b-button class="btn-lg" :to="info.redirectTo">
             {{info.name}}
         </b-button>
     </div>
@@ -22,9 +22,8 @@
         height: 100%;
     }
 
-    a.btn.btn-lg.btn-secondary {
+    .btn-lg {
         display: block;
-        width: 50%;
         margin: 10px auto;
     }
 </style>
