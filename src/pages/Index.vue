@@ -188,6 +188,12 @@
 
 <style scoped>
 
+    .fix {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
     div {
         margin-bottom: 10px;
     }

@@ -4,25 +4,23 @@
 
         <h1>Services</h1>
 
-        <ul>
-            <service-panel :key="service.name" :service=service v-for="service in services"/>
+        <service-panel :key="service.name" :service=service v-for="service in services"/>
 
-            <div>
-                <b-card bg-variant="light" class="card" style="text-align: left" title="Booking an Appointment">
-                    <p>Upon appointment confirmation please bring the following items</p>
+        <div class="bookAppt">
+            <b-card bg-variant="light" class="card" style="text-align: left" title="Booking an Appointment">
+                <p>Upon appointment confirmation please bring the following items</p>
 
-                    <div>
-                        <ul>
-                            <li :key="condition" v-for="condition in bookingConditions">{{condition}}</li>
-                        </ul>
-                    </div>
+                <div>
+                    <ul>
+                        <li :key="condition" v-for="condition in bookingConditions">{{condition}}</li>
+                    </ul>
+                </div>
 
-                    <p>Upon arrival basic functional test will be performed, at which time a price and time estimate will be provided.</p>
-                    <p>The tech will contact the owner if and when replacement parts are required for repairs or upgrades are advised.</p>
+                <p>Upon arrival basic functional test will be performed, at which time a price and time estimate will be provided.</p>
+                <p>The tech will contact the owner if and when replacement parts are required for repairs or upgrades are advised.</p>
 
-                </b-card>
-            </div>
-        </ul>
+            </b-card>
+        </div>
     </div>
     </Layout>
 </template>
@@ -93,6 +91,7 @@
 </script>
 
 <style scoped>
-
-
+    .bookAppt {
+        margin-top: 20px;
+    }
 </style>
