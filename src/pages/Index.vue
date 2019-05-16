@@ -20,44 +20,93 @@
     </b-container>
 
     <b-container>
-        <div class="pictureInfoBlock">
+        <div >
             <h1>Extensive Qualifications & Experience</h1>
 
-            <b-row>
-                <b-col>
-                        <b-img rounded fluid-grow :src="design1" alt=""></b-img>
+            <b-card-group deck>
+                <b-card :img-src="design1" img-top>
+                    <b-card-text>
                         <ul>
                             <li>Mechanical Engineering Technologist</li>
                             <li>Computer Science Software Developer</li>
                             <li>3D Design</li>
                         </ul>
-                    <!--<b-card class="image" :img-src="design1" img-top>-->
-                        <!--<b-card-text>test</b-card-text>-->
-                    <!--</b-card>-->
-                </b-col>
-                <b-col>
-                        <b-img rounded fluid-grow :src="design2" alt=""></b-img>
+                    </b-card-text>
+                </b-card>
+
+                <b-card  :img-src="design2" img-top>
+                    <b-card-text>
                         <ul>
                             <li>Database creation management</li>
                             <li>Electrical soldering & troubleshooting</li>
                             <li>Machining</li>
                         </ul>
-                    <!--<b-card class="image" :img-src="design2" img-top>-->
-                        <!--<b-card-text>test</b-card-text>-->
-                    <!--</b-card>-->
-                </b-col>
-                <b-col>
-                        <b-img rounded fluid-grow :src="design3" alt=""></b-img>
+                    </b-card-text>
+                </b-card>
+
+                <b-card :img-src="design3" img-top>
+                    <b-card-text>
                         <ul>
                             <li>Root-Cause Analysis</li>
                             <li>Data Analysis</li>
                             <li>Workplace Compliance</li>
                         </ul>
-                    <!--<b-card class="image" :img-src="design3" img-top>-->
-                        <!--<b-card-text>test</b-card-text>-->
+                    </b-card-text>
+                </b-card>
+            </b-card-group>
+            <!--<b-row>-->
+                <!--<b-col>-->
+                        <!--&lt;!&ndash;<b-img class="fix" rounded fluid-grow :src="design1" alt=""></b-img>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Mechanical Engineering Technologist</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Computer Science Software Developer</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>3D Design</li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<b-card class="fix" :img-src="design1" img-top>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<b-card-text>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li>Mechanical Engineering Technologist</li>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li>Computer Science Software Developer</li>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li>3D Design</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</b-card-text>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
+                <!--</b-col>-->
+                <!--<b-col>-->
+                        <!--&lt;!&ndash;<b-img class="fix" rounded fluid-grow :src="design2" alt=""></b-img>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Database creation management</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Electrical soldering & troubleshooting</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Machining</li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<b-card class="fix" :img-src="design2" img-top>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<b-card-text>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li>Database creation management</li>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li>Electrical soldering & troubleshooting</li>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<li>Machining</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</b-card-text>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
+                <!--</b-col>-->
+                <!--<b-col>-->
+                        <!--&lt;!&ndash;<b-img class="fix" rounded fluid-grow :src="design3" alt=""></b-img>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Root-Cause Analysis</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Data Analysis</li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li>Workplace Compliance</li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--<b-card class="fix" :img-src="design3" img-top>-->
+                        <!--<b-card-text>-->
+                            <!--<ul>-->
+                                <!--<li>Root-Cause Analysis</li>-->
+                                <!--<li>Data Analysis</li>-->
+                                <!--<li>Workplace Compliance</li>-->
+                            <!--</ul>-->
+                        <!--</b-card-text>-->
                     <!--</b-card>-->
-                </b-col>
-            </b-row>
+                <!--</b-col>-->
+            <!--</b-row>-->
         </div>
 
         <!--<b-row class="row">-->
@@ -77,12 +126,12 @@
             <!--</b-col>-->
         <!--</b-row>-->
 
-        <div class="pictureInfoBlock">
+        <div>
             <h1>Precision</h1>
 
-            <b-row>
-                <b-col>
-                        <b-img rounded fluid-grow :src="precision1" alt=""></b-img>
+            <b-card-group deck>
+                <b-card :img-src="precision1" img-top>
+                    <b-card-text>
                         <h3>Industry Leading Equipment</h3>
                         <ul>
                             <li>Fluke</li>
@@ -90,47 +139,103 @@
                             <li>Siglent</li>
                             <li>FlashForge</li>
                         </ul>
-                </b-col>
-                <b-col>
-                        <b-img rounded fluid-grow :src="precision2" alt=""></b-img>
+                    </b-card-text>
+                </b-card>
+
+                <b-card :img-src="precision2" img-top>
+                    <b-card-text>
                         <h3>Quality Material Selection</h3>
                         <ul>
                             <li>C360 Brass</li>
                             <li>ABS Plastic</li>
                             <li>Dow Corning</li>
                         </ul>
-                </b-col>
-                <b-col>
-                        <b-img rounded fluid-grow :src="precision3" alt=""></b-img>
+                    </b-card-text>
+                </b-card>
+
+                <b-card :img-src="precision3" img-top>
+                    <b-card-text>
                         <h3>Cutting Edge Verifications</h3>
                         <ul>
                             <li>Current Profiles</li>
                             <li>Shot Authentication</li>
                             <li>Velocity Consistency</li>
                         </ul>
-                </b-col>
-            </b-row>
+                    </b-card-text>
+                </b-card>
+            </b-card-group>
+
+            <!--<b-row>-->
+                <!--<b-col>-->
+                        <!--<b-img rounded fluid-grow :src="precision1" alt=""></b-img>-->
+                        <!--<h3>Industry Leading Equipment</h3>-->
+                        <!--<ul>-->
+                            <!--<li>Fluke</li>-->
+                            <!--<li>AceTech</li>-->
+                            <!--<li>Siglent</li>-->
+                            <!--<li>FlashForge</li>-->
+                        <!--</ul>-->
+                <!--</b-col>-->
+                <!--<b-col>-->
+                        <!--<b-img rounded fluid-grow :src="precision2" alt=""></b-img>-->
+                        <!--<h3>Quality Material Selection</h3>-->
+                        <!--<ul>-->
+                            <!--<li>C360 Brass</li>-->
+                            <!--<li>ABS Plastic</li>-->
+                            <!--<li>Dow Corning</li>-->
+                        <!--</ul>-->
+                <!--</b-col>-->
+                <!--<b-col>-->
+                        <!--<b-img rounded fluid-grow :src="precision3" alt=""></b-img>-->
+                        <!--<h3>Cutting Edge Verifications</h3>-->
+                        <!--<ul>-->
+                            <!--<li>Current Profiles</li>-->
+                            <!--<li>Shot Authentication</li>-->
+                            <!--<li>Velocity Consistency</li>-->
+                        <!--</ul>-->
+                <!--</b-col>-->
+            <!--</b-row>-->
         </div>
 
-        <div class="pictureInfoBlock">
+        <div>
             <h1>Professional Workflow</h1>
 
-            <b-row>
-                <b-col>
-                        <b-img rounded fluid-grow :src="workflow1" alt=""></b-img>
+            <b-card-group deck>
+                <b-card :img-src="workflow1" img-top>
+                    <b-card-text>
                         <ul>
                             <li>Personalized service based on unique needs</li>
                             <li>Reliable and consistant communication with customers</li>
                         </ul>
-                </b-col>
-                <b-col>
-                        <b-img rounded fluid-grow :src="workflow2" alt=""></b-img>
+                    </b-card-text>
+                </b-card>
+
+                <b-card :img-src="workflow2" img-top>
+                    <b-card-text>
                         <ul>
                             <li>Data driven decisions</li>
                             <li>Excellent customer service</li>
                         </ul>
-                </b-col>
-            </b-row>
+                    </b-card-text>
+                </b-card>
+            </b-card-group>
+
+            <!--<b-row>-->
+                <!--<b-col>-->
+                        <!--<b-img rounded fluid-grow :src="workflow1" alt=""></b-img>-->
+                        <!--<ul>-->
+                            <!--<li>Personalized service based on unique needs</li>-->
+                            <!--<li>Reliable and consistant communication with customers</li>-->
+                        <!--</ul>-->
+                <!--</b-col>-->
+                <!--<b-col>-->
+                        <!--<b-img rounded fluid-grow :src="workflow2" alt=""></b-img>-->
+                        <!--<ul>-->
+                            <!--<li>Data driven decisions</li>-->
+                            <!--<li>Excellent customer service</li>-->
+                        <!--</ul>-->
+                <!--</b-col>-->
+            <!--</b-row>-->
         </div>
     </b-container>
 
@@ -187,6 +292,12 @@
 </script>
 
 <style scoped>
+
+    /*img.card-img-top {*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*object-fit: cover;*/
+    /*}*/
 
     .fix {
         width: 100%;
