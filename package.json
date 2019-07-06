@@ -17,6 +17,6 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@vue/cli-plugin-pwa": "^3.8.0"
+    "@vue/cli-plugin-pwa": "^3.9.0"
   }
 }

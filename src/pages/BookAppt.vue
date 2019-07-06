@@ -14,7 +14,4 @@
 </script>
 
 <style scoped>
-    .embed-responsive-item {
-        overflow: hidden;
-    }
 </style>
