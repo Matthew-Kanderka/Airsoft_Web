@@ -9,13 +9,13 @@
       <b-collapse is-nav id="nav_collapse">
 
         <b-navbar-nav>
-          <b-nav-item to="/Services">Services</b-nav-item>
+          <b-nav-item to="/services">Services</b-nav-item>
           <b-nav-item to="/qand-a">Q & A</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item to="/Contact">Contact Us</b-nav-item>
+          <b-nav-item to="/contact">Contact Us</b-nav-item>
         </b-navbar-nav>
 
       </b-collapse>
