@@ -11,13 +11,13 @@
 
     </b-jumbotron>
 
-    <b-container class="infoPanelRow">
-        <b-row>
-            <b-col :key="i.name" v-for="i in infos">
-                <infoPanel class="info" :info=i></infoPanel>
-            </b-col>
-        </b-row>
-    </b-container>
+    <!--<b-container class="infoPanelRow">-->
+        <!--<b-row>-->
+            <!--<b-col :key="i.name" v-for="i in infos">-->
+                <!--<infoPanel class="info" :info=i></infoPanel>-->
+            <!--</b-col>-->
+        <!--</b-row>-->
+    <!--</b-container>-->
 
     <b-container>
         <div >
@@ -247,7 +247,7 @@
 </template>
 
 <script>
-    import infoPanel from '../components/infoPanel'
+    import infoPanel from '../components/home/infoPanel'
 
     export default {
         name: "home",
@@ -271,7 +271,7 @@
                         name: 'Services',
                         description: 'See the services we provide',
                         photo: require('../assets/services-icon.png'),
-                        redirectTo: '/Services'
+                        redirectTo: '/services'
                     },
                     {
                         name: 'Q & A',
@@ -283,7 +283,7 @@
                         name: 'Contact Us',
                         description: 'Get in touch with us',
                         photo: require('../assets/contact.png'),
-                        redirectTo: '/Contact'
+                        redirectTo: '/contact'
                     }
                 ]
             }

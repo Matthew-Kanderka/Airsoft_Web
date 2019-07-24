@@ -2,9 +2,13 @@
     <div >
         <g-image :src=info.photo alt=""></g-image>
 
-        <b-button block class="btn" :to="info.redirectTo">
+        <g-link :to="info.redirectTo" class="button primary button-large">
             {{info.name}}
-        </b-button>
+        </g-link>
+
+        <!--<b-button block class="btn" :to="info.redirectTo">-->
+            <!--{{info.name}}-->
+        <!--</b-button>-->
     </div>
 </template>
 
@@ -20,10 +24,5 @@
     img {
         width: 40%;
         height: 100%;
-    }
-
-    .btn {
-        margin: 10px auto;
-        width: 80%;
     }
 </style>
