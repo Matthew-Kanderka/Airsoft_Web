@@ -6,9 +6,6 @@
             {{info.name}}
         </g-link>
 
-        <!--<b-button block class="btn" :to="info.redirectTo">-->
-            <!--{{info.name}}-->
-        <!--</b-button>-->
     </div>
 </template>
 

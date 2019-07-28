@@ -11,233 +11,106 @@
 
     </b-jumbotron>
 
-    <!--<b-container class="infoPanelRow">-->
-        <!--<b-row>-->
-            <!--<b-col :key="i.name" v-for="i in infos">-->
-                <!--<infoPanel class="info" :info=i></infoPanel>-->
-            <!--</b-col>-->
-        <!--</b-row>-->
-    <!--</b-container>-->
+    <div class="container">
+        <h1>Extensive Qualifications & Experience</h1>
 
-    <b-container>
-        <div >
-            <h1>Extensive Qualifications & Experience</h1>
 
-            <b-card-group deck>
-                <b-card :img-src="design1" img-top>
-                    <b-list-group>
-                        <ul>
-                            <li>Mechanical Engineering Technologist</li>
-                            <li>Computer Science Software Developer</li>
-                            <li>3D Design</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
+        <div class="grid-cols">
 
-                <b-card  :img-src="design2" img-top>
-                    <b-list-group>
-                        <ul>
-                            <li>Database creation management</li>
-                            <li>Electrical soldering & troubleshooting</li>
-                            <li>Machining</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
+            <Card>
+                <g-image src="../assets/Des1-thumb.webp"/>
 
-                <b-card :img-src="design3" img-top>
-                    <b-list-group>
-                        <ul>
-                            <li>Root-Cause Analysis</li>
-                            <li>Data Analysis</li>
-                            <li>Workplace Compliance</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
-            </b-card-group>
-            <!--<b-row>-->
-                <!--<b-col>-->
-                        <!--&lt;!&ndash;<b-img class="fix" rounded fluid-grow :src="design1" alt=""></b-img>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Mechanical Engineering Technologist</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Computer Science Software Developer</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>3D Design</li>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<b-card class="fix" :img-src="design1" img-top>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<b-list-group>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<ul>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<li>Mechanical Engineering Technologist</li>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<li>Computer Science Software Developer</li>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<li>3D Design</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</b-list-group>&ndash;&gt;-->
-                    <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
-                <!--</b-col>-->
-                <!--<b-col>-->
-                        <!--&lt;!&ndash;<b-img class="fix" rounded fluid-grow :src="design2" alt=""></b-img>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Database creation management</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Electrical soldering & troubleshooting</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Machining</li>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<b-card class="fix" :img-src="design2" img-top>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<b-list-group>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<ul>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<li>Database creation management</li>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<li>Electrical soldering & troubleshooting</li>&ndash;&gt;-->
-                                <!--&lt;!&ndash;<li>Machining</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</b-list-group>&ndash;&gt;-->
-                    <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
-                <!--</b-col>-->
-                <!--<b-col>-->
-                        <!--&lt;!&ndash;<b-img class="fix" rounded fluid-grow :src="design3" alt=""></b-img>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Root-Cause Analysis</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Data Analysis</li>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<li>Workplace Compliance</li>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
-                    <!--<b-card class="fix" :img-src="design3" img-top>-->
-                        <!--<b-list-group>-->
-                            <!--<ul>-->
-                                <!--<li>Root-Cause Analysis</li>-->
-                                <!--<li>Data Analysis</li>-->
-                                <!--<li>Workplace Compliance</li>-->
-                            <!--</ul>-->
-                        <!--</b-list-group>-->
-                    <!--</b-card>-->
-                <!--</b-col>-->
-            <!--</b-row>-->
+                <ul>
+                    <li>Mechanical Engineering Technologist</li>
+                    <li>Computer Science Software Developer</li>
+                    <li>3D Design</li>
+                </ul>
+            </Card>
+
+            <Card>
+                <g-image src="../assets/Des2-thumb.webp"/>
+
+                <ul>
+                    <li>Database creation management</li>
+                    <li>Electrical soldering & troubleshooting</li>
+                    <li>Machining</li>
+                </ul>
+            </Card>
+
+            <Card>
+                <g-image src="../assets/Des3-thumb.webp"/>
+
+                <ul>
+                    <li>Root-Cause Analysis</li>
+                    <li>Data Analysis</li>
+                    <li>Workplace Compliance</li>
+                </ul>
+            </Card>
         </div>
 
-        <!--<b-row class="row">-->
-            <!--<b-col >-->
-                <!--<img  :src=design4 alt="">-->
-                <!--<h2>Text</h2>-->
-                <!--&lt;!&ndash;<b-card class="image" :img-src="design1" img-top>&ndash;&gt;-->
-                <!--&lt;!&ndash;<b-list-group>test</b-list-group>&ndash;&gt;-->
-                <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
-            <!--</b-col>-->
-            <!--<b-col>-->
-                <!--<img  :src=design5 alt="">-->
-                <!--<h2>Text</h2>-->
-                <!--&lt;!&ndash;<b-card class="image" :img-src="design2" img-top>&ndash;&gt;-->
-                <!--&lt;!&ndash;<b-list-group>test</b-list-group>&ndash;&gt;-->
-                <!--&lt;!&ndash;</b-card>&ndash;&gt;-->
-            <!--</b-col>-->
-        <!--</b-row>-->
+        <h1>Precision</h1>
 
-        <div>
-            <h1>Precision</h1>
 
-            <b-card-group deck>
-                <b-card :img-src="precision1" img-top>
-                    <b-list-group>
-                        <h3>Industry Leading Equipment</h3>
-                        <ul>
-                            <li>Fluke</li>
-                            <li>AceTech</li>
-                            <li>Siglent</li>
-                            <li>FlashForge</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
+        <div class="grid-cols">
 
-                <b-card :img-src="precision2" img-top>
-                    <b-list-group>
-                        <h3>Quality Material Selection</h3>
-                        <ul>
-                            <li>C360 Brass</li>
-                            <li>ABS Plastic</li>
-                            <li>Dow Corning</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
+            <Card>
+                <g-image src="../assets/MNFG1-thumb.webp"/>
 
-                <b-card :img-src="precision3" img-top>
-                    <b-list-group>
-                        <h3>Cutting Edge Verifications</h3>
-                        <ul>
-                            <li>Current Profiles</li>
-                            <li>Shot Authentication</li>
-                            <li>Velocity Consistency</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
-            </b-card-group>
+                <h3>Industry Leading Equipment</h3>
+                <ul>
+                    <li>Fluke</li>
+                    <li>AceTech</li>
+                    <li>Siglent</li>
+                    <li>FlashForge</li>
+                </ul>
+            </Card>
 
-            <!--<b-row>-->
-                <!--<b-col>-->
-                        <!--<b-img rounded fluid-grow :src="precision1" alt=""></b-img>-->
-                        <!--<h3>Industry Leading Equipment</h3>-->
-                        <!--<ul>-->
-                            <!--<li>Fluke</li>-->
-                            <!--<li>AceTech</li>-->
-                            <!--<li>Siglent</li>-->
-                            <!--<li>FlashForge</li>-->
-                        <!--</ul>-->
-                <!--</b-col>-->
-                <!--<b-col>-->
-                        <!--<b-img rounded fluid-grow :src="precision2" alt=""></b-img>-->
-                        <!--<h3>Quality Material Selection</h3>-->
-                        <!--<ul>-->
-                            <!--<li>C360 Brass</li>-->
-                            <!--<li>ABS Plastic</li>-->
-                            <!--<li>Dow Corning</li>-->
-                        <!--</ul>-->
-                <!--</b-col>-->
-                <!--<b-col>-->
-                        <!--<b-img rounded fluid-grow :src="precision3" alt=""></b-img>-->
-                        <!--<h3>Cutting Edge Verifications</h3>-->
-                        <!--<ul>-->
-                            <!--<li>Current Profiles</li>-->
-                            <!--<li>Shot Authentication</li>-->
-                            <!--<li>Velocity Consistency</li>-->
-                        <!--</ul>-->
-                <!--</b-col>-->
-            <!--</b-row>-->
+            <Card>
+                <g-image src="../assets/MNFG2-thumb.webp"/>
+
+                <h3>Quality Material Selection</h3>
+                <ul>
+                    <li>C360 Brass</li>
+                    <li>ABS Plastic</li>
+                    <li>Dow Corning</li>
+                </ul>
+            </Card>
+
+            <Card>
+                <g-image src="../assets/MNFG3-thumb.webp"/>
+
+                <h3>Cutting Edge Verifications</h3>
+                <ul>
+                    <li>Current Profiles</li>
+                    <li>Shot Authentication</li>
+                    <li>Velocity Consistency</li>
+                </ul>
+            </Card>
         </div>
 
-        <div>
-            <h1>Professional Workflow</h1>
+        <h1>Professional Workflow</h1>
 
-            <b-card-group deck>
-                <b-card :img-src="workflow1" img-top>
-                    <b-list-group>
-                        <ul>
-                            <li>Personalized service based on unique needs</li>
-                            <li>Reliable and consistant communication with customers</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
+        <div class="grid-cols">
 
-                <b-card :img-src="workflow2" img-top>
-                    <b-list-group>
-                        <ul>
-                            <li>Data driven decisions</li>
-                            <li>Excellent customer service</li>
-                        </ul>
-                    </b-list-group>
-                </b-card>
-            </b-card-group>
+            <Card>
+                <g-image src="../assets/PROWF1-thumb.webp"/>
 
-            <!--<b-row>-->
-                <!--<b-col>-->
-                        <!--<b-img rounded fluid-grow :src="workflow1" alt=""></b-img>-->
-                        <!--<ul>-->
-                            <!--<li>Personalized service based on unique needs</li>-->
-                            <!--<li>Reliable and consistant communication with customers</li>-->
-                        <!--</ul>-->
-                <!--</b-col>-->
-                <!--<b-col>-->
-                        <!--<b-img rounded fluid-grow :src="workflow2" alt=""></b-img>-->
-                        <!--<ul>-->
-                            <!--<li>Data driven decisions</li>-->
-                            <!--<li>Excellent customer service</li>-->
-                        <!--</ul>-->
-                <!--</b-col>-->
-            <!--</b-row>-->
+                <ul>
+                    <li>Personalized service based on unique needs</li>
+                    <li>Reliable and consistant communication with customers</li>
+                </ul>
+            </Card>
+
+            <Card>
+                <g-image src="../assets/PROWF2-thumb.webp"/>
+
+                <ul>
+                    <li>Data driven decisions</li>
+                    <li>Excellent customer service</li>
+                </ul>
+            </Card>
         </div>
-    </b-container>
+    </div>
 
     <div>
         <br>
@@ -256,16 +129,6 @@
         },
         data() {
             return {
-                design1: require('../assets/Des1-thumb.webp'),
-                design2: require('../assets/Des2-thumb.webp'),
-                design3: require('../assets/Des3-thumb.webp'),
-                design4: require('../assets/Des4-thumb.webp'),
-                design5: require('../assets/Des5-thumb.webp'),
-                precision1: require('../assets/MNFG1-thumb.webp'),
-                precision2 : require('../assets/MNFG2-thumb.webp'),
-                precision3 : require('../assets/MNFG3-thumb.webp'),
-                workflow1: require('../assets/PROWF1-thumb.webp'),
-                workflow2: require('../assets/PROWF2-thumb.webp'),
                 infos: [
                     {
                         name: 'Services',
@@ -293,32 +156,41 @@
 
 <style scoped>
 
-    /*img.card-img-top {*/
-        /*width: 100%;*/
-        /*height: 100%;*/
-        /*object-fit: cover;*/
-    /*}*/
+    .grid-cols {
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(26%, 1fr) );
 
-    .fix {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        grid-gap: 25px;
     }
 
-    div {
-        margin-bottom: 10px;
-    }
+    img {
+        max-height: 200px;
+        width: auto;
 
+    }
 
     h2{
         margin-top: 8px;
     }
 
-    .infoPanelRow {
-        margin-top: 50px;
-    }
-
     ul {
         list-style-type: none;
     }
+
+    @media screen and (max-width: 850px) {
+        .grid-cols{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .grid-cols--full-md{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .grid-cols {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
 </style>

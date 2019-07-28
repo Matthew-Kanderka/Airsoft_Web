@@ -3,12 +3,6 @@
 
         <Logo class="navbar-brand"></Logo>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
             <g-link class="nav-item" to="/services">
                 <span>Services</span>
             </g-link>
@@ -17,10 +11,9 @@
                 <span>Q & A</span>
             </g-link>
 
-            <g-link class="nav-item ml-auto" to="/contact">
+            <g-link class="nav-item" to="/contact">
                 <span>Contact</span>
             </g-link>
-        </div>
     </nav>
 </template>
 
@@ -37,6 +30,8 @@
 
 <style scoped>
     a {
-        color: gray;
+        color: white;
+        padding-right: 10px;
     }
+
 </style>

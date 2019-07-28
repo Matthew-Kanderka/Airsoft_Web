@@ -3,7 +3,7 @@
 
         <div class="header-inner">
             <LazyHydrate on-idle>
-                <Nav class="flex-fit"></Nav>
+                <Nav class="flex-fit"/>
             </LazyHydrate>
         </div>
 
@@ -29,4 +29,10 @@
     a {
         color: white;
     }
+
+    .flex-fit {
+        flex: 1;
+    }
+
+
 </style>
