@@ -13,4 +13,9 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   Vue.component('Card', Card)
   Vue.use(BootstrapVue)
+
+  head.script.push({
+    src: 'service-worker.js',
+    body: true
+  })
 }
