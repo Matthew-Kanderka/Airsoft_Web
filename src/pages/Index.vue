@@ -18,7 +18,7 @@
         <div class="grid-cols">
 
             <Card>
-                <g-image src="../assets/Des1-thumb.webp"/>
+                <g-image src="../assets/Des1-thumb.png"/>
 
                 <ul>
                     <li>Mechanical Engineering Technologist</li>
@@ -28,7 +28,7 @@
             </Card>
 
             <Card>
-                <g-image src="../assets/Des2-thumb.webp"/>
+                <g-image src="../assets/Des2-thumb.png"/>
 
                 <ul>
                     <li>Database creation management</li>
@@ -38,7 +38,7 @@
             </Card>
 
             <Card>
-                <g-image src="../assets/Des3-thumb.webp"/>
+                <g-image src="../assets/Des3-thumb.png"/>
 
                 <ul>
                     <li>Root-Cause Analysis</li>
@@ -54,7 +54,7 @@
         <div class="grid-cols">
 
             <Card>
-                <g-image src="../assets/MNFG1-thumb.webp"/>
+                <g-image src="../assets/MNFG1-thumb.png"/>
 
                 <h3>Industry Leading Equipment</h3>
                 <ul>
@@ -66,7 +66,7 @@
             </Card>
 
             <Card>
-                <g-image src="../assets/MNFG2-thumb.webp"/>
+                <g-image src="../assets/MNFG2-thumb.png"/>
 
                 <h3>Quality Material Selection</h3>
                 <ul>
@@ -77,7 +77,7 @@
             </Card>
 
             <Card>
-                <g-image src="../assets/MNFG3-thumb.webp"/>
+                <g-image src="../assets/MNFG3-thumb.png"/>
 
                 <h3>Cutting Edge Verifications</h3>
                 <ul>
@@ -93,7 +93,7 @@
         <div class="grid-cols">
 
             <Card>
-                <g-image src="../assets/PROWF1-thumb.webp"/>
+                <g-image src="../assets/PROWF1-thumb.png"/>
 
                 <ul>
                     <li>Personalized service based on unique needs</li>
@@ -102,7 +102,7 @@
             </Card>
 
             <Card>
-                <g-image src="../assets/PROWF2-thumb.webp"/>
+                <g-image src="../assets/PROWF2-thumb.png"/>
 
                 <ul>
                     <li>Data driven decisions</li>
