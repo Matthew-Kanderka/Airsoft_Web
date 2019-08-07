@@ -14,9 +14,11 @@
     "imagemin": "^6.1.0",
     "imagemin-webp": "^5.1.0",
     "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
     "npm": "^6.10.1",
     "pwa": "^1.9.7",
     "register-service-worker": "^1.6.2",
+    "sass-loader": "^7.1.0",
     "vue": "^2.6.10",
     "vue-lazy-hydration": "^1.0.0-beta.9"
   },

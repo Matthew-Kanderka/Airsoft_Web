@@ -17,9 +17,7 @@
 
         <div class="grid-cols">
 
-            <Card>
-                <g-image src="../assets/Des1-thumb.png"/>
-
+            <Card :title="' '" :image="design1">
                 <ul>
                     <li>Mechanical Engineering Technologist</li>
                     <li>Computer Science Software Developer</li>
@@ -27,9 +25,7 @@
                 </ul>
             </Card>
 
-            <Card>
-                <g-image src="../assets/Des2-thumb.png"/>
-
+            <Card :title="' '" :image="design2">
                 <ul>
                     <li>Database creation management</li>
                     <li>Electrical soldering & troubleshooting</li>
@@ -37,9 +33,7 @@
                 </ul>
             </Card>
 
-            <Card>
-                <g-image src="../assets/Des3-thumb.png"/>
-
+            <Card :title="' '" :image="design3">
                 <ul>
                     <li>Root-Cause Analysis</li>
                     <li>Data Analysis</li>
@@ -53,10 +47,7 @@
 
         <div class="grid-cols">
 
-            <Card>
-                <g-image src="../assets/MNFG1-thumb.png"/>
-
-                <h3>Industry Leading Equipment</h3>
+            <Card :title="'Industry Leading Equipment'" :image="precision1">
                 <ul>
                     <li>Fluke</li>
                     <li>AceTech</li>
@@ -65,10 +56,7 @@
                 </ul>
             </Card>
 
-            <Card>
-                <g-image src="../assets/MNFG2-thumb.png"/>
-
-                <h3>Quality Material Selection</h3>
+            <Card :title="'Quality Material Selection'" :image="precision2">
                 <ul>
                     <li>C360 Brass</li>
                     <li>ABS Plastic</li>
@@ -76,10 +64,7 @@
                 </ul>
             </Card>
 
-            <Card>
-                <g-image src="../assets/MNFG3-thumb.png"/>
-
-                <h3>Cutting Edge Verifications</h3>
+            <Card :title="'Cutting Edge Verifications'" :image="precision3">
                 <ul>
                     <li>Current Profiles</li>
                     <li>Shot Authentication</li>
@@ -92,18 +77,14 @@
 
         <div class="grid-cols">
 
-            <Card>
-                <g-image src="../assets/PROWF1-thumb.png"/>
-
+            <Card :title="' '" :image="workflow1">
                 <ul>
                     <li>Personalized service based on unique needs</li>
                     <li>Reliable and consistant communication with customers</li>
                 </ul>
             </Card>
 
-            <Card>
-                <g-image src="../assets/PROWF2-thumb.png"/>
-
+            <Card :title="' '" :image="workflow2">
                 <ul>
                     <li>Data driven decisions</li>
                     <li>Excellent customer service</li>
@@ -129,26 +110,14 @@
         },
         data() {
             return {
-                infos: [
-                    {
-                        name: 'Services',
-                        description: 'See the services we provide',
-                        photo: require('../assets/services-icon.png'),
-                        redirectTo: '/services'
-                    },
-                    {
-                        name: 'Q & A',
-                        description: 'Common questions asked',
-                        photo: require('../assets/question-icon.png'),
-                        redirectTo: '/qand-a'
-                    },
-                    {
-                        name: 'Contact Us',
-                        description: 'Get in touch with us',
-                        photo: require('../assets/contact.png'),
-                        redirectTo: '/contact'
-                    }
-                ]
+                design1: require('../assets/Des1-thumb.webp'),
+                design2: require('../assets/Des2-thumb.webp'),
+                design3: require('../assets/Des3-thumb.webp'),
+                precision1: require('../assets/MNFG1-thumb.webp'),
+                precision2 : require('../assets/MNFG2-thumb.webp'),
+                precision3 : require('../assets/MNFG3-thumb.webp'),
+                workflow1: require('../assets/PROWF1-thumb.webp'),
+                workflow2: require('../assets/PROWF2-thumb.webp'),
             }
         }
     }
@@ -163,17 +132,13 @@
         grid-gap: 25px;
     }
 
-    img {
-        max-height: 200px;
-        width: auto;
-
-    }
-
-    h2{
-        margin-top: 8px;
+    h1{
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
 
     ul {
+        padding-left: 0;
         list-style-type: none;
     }
 

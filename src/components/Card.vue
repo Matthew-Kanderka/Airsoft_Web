@@ -4,7 +4,7 @@
       Read more
     </g-link>
     <div class="card__title" v-if="title">
-      <span>{{ title }}</span>
+      <h5>{{ title }}</h5>
     </div>
     <div v-if="image" class="card__image">
       <g-image :src="image" />
@@ -29,11 +29,13 @@ export default {
 }
 </script>
 
-<style >
+<style lang="scss">
+
+
   .card {
-    border: 1px solid var(--border-color-darker);
+    border: 1px solid blue;
     border-radius: 4px;
-    background-color: var(--light-bg);
+    background-color: green;
     transition: color.3s, box-shadow .3s, transform .3s;
     position: relative;
     z-index: 1;
@@ -43,7 +45,7 @@ export default {
     &__title {
       text-align: center;
       width: 100%;
-      margin-top: -16px;
+      margin-top: 8px;
 
       span {
         display: inline-block;
@@ -62,8 +64,8 @@ export default {
       overflow: hidden;
       border-bottom: 1px solid var(--border-color);
       img {
-        margin: 0;
-        width: 100%;
+        max-height: 200px;
+        width: auto;
       }
     }
 
@@ -76,11 +78,6 @@ export default {
     &[class*='container']  &__inner {
       padding-left: 0;
       padding-right: 0;
-    }
-
-    .section--dark & {
-      background-color: var(--dark-bg);
-      border-color: rgba(255,255,255,.1);
     }
 
 
