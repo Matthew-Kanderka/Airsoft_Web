@@ -7,7 +7,7 @@
       <h5>{{ title }}</h5>
     </div>
     <div v-if="image" class="card__image">
-      <g-image :src="image" />
+      <g-image :src="image" alt="image"/>
     </div>
     <div class="card__inner">
       <slot />

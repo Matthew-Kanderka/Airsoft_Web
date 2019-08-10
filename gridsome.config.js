@@ -3,8 +3,6 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const {GenerateSW} = require('workbox-webpack-plugin');
-
 
 module.exports = {
   siteName: 'Humming Bird Airsoft Solutions',
@@ -21,13 +19,8 @@ module.exports = {
         shortName: 'Gridsome',
         themeColor: '#666600',
         backgroundColor: '#ffffff',
-        icon: 'public/favicon.ico' // must be supplied!
+        icon: 'dist/favicon.ico' // must be supplied!
       }
     }
   ]
-  // configureWebpack: {
-  //   plugins: [
-  //   new GenerateSW()
-  //   ]
-  // }
 }
