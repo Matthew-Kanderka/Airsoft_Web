@@ -16,6 +16,7 @@ module.exports = {
         statusBarStyle: 'default',
         manifestPath: 'manifest.json',
         serviceWorkerPath: 'service-worker.js',
+        cachedFileTypes: 'js,css,html,png,jpg,jpeg,webp',
         shortName: 'Gridsome',
         themeColor: '#666600',
         backgroundColor: '#ffffff',
